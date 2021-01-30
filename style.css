@@ -218,14 +218,6 @@ h6 {
   background-color: #192734;
 }
 
-#green-mode {
-  background-color: #78866b;
-}
-
-#purple-mode {
-  background-color: #7e4c74;
-}
-
 #settings-note {
   font-size: 12px;
   font-style: italic;
@@ -236,9 +228,14 @@ h6 {
   grid-area: right-column;
   display: grid;
   align-content: center;
-
   padding-top: 50px;
   padding-bottom: 50px;
+}
+
+@media (max-width: 760px) {
+  .right-column {
+    margin-right: 2rem;
+  }
 }
 
 #preview-shadow {
