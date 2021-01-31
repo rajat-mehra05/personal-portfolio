@@ -3,6 +3,12 @@
   <head>
     <title>Rajat Mehra</title>
 
+    <!-- font awesome cdn -->
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+
     <meta
       name="viewport"
       content="width=device-width, initial-scale=1, maximum-scale=1, minimum-scale=1"
@@ -49,7 +55,7 @@
             </a>
 
             <ul id="navigation">
-              <li><a href="index.html#contact">Contact</a></li>
+              <li><a href="index.html#projects">Projects</a></li>
             </ul>
           </div>
 
@@ -102,12 +108,12 @@
 
             <hr />
 
-            <h4>SKILLS AND TOOLS</h4>
+            <h4>SKILLS</h4>
 
             <p>
               Frontend developer with primary focus on React.
               <br />
-              <a target="_blank" href="#">Download Resume</a>
+              <a target="_blank" href="rajat1.pdf">Download Resume</a>
             </p>
 
             <div id="skills">
@@ -131,15 +137,18 @@
             <h3>You can find me on:</h3>
 
             <a target="_blank" href="https://twitter.com/_rajat_mehra_"
-              >Twiiter: @_rajat_mehra_</a
+              ><i class="fa fa-twitter-square" aria-hidden="true"></i>:
+              @_rajat_mehra_</a
             >
             <br />
             <a target="_blank" href="https://www.linkedin.com/in/rajat-mehra-/"
-              >LinkedIn: @rajat-mehra
+              ><i class="fa fa-linkedin-square" aria-hidden="true"></i>:
+              @rajat-mehra
             </a>
             <br />
             <a target="_blank" href="https://github.com/rajat-mehra05"
-              >GitHub: @rajat-mehra05
+              ><i class="fa fa-github-square" aria-hidden="true"></i>:
+              @rajat-mehra05
             </a>
           </div>
         </div>
@@ -148,7 +157,7 @@
 
     <section class="s1">
       <div class="main-container">
-        <h3 style="text-align: center">Some of my projects</h3>
+        <h3 style="text-align: center" id="projects">Some of my projects</h3>
 
         <div class="post-wrapper">
           <div>
@@ -272,30 +281,15 @@
 
     <section class="s2">
       <div class="main-container">
-        <a href="rajat.m.5278@gmail.com"></a>
-        <h3 style="text-align: center">Get In Touch</h3>
+        <div class="footer">
+          <div class="f-left">©️&nbsp;<span>2021</span> Rajat Mehra 🌻</div>
 
-        <form id="contact-form">
-          <a name="contact"></a>
-
-          <label>Your name</label>
-          <input class="input-field" type="text" name="name" id="from_name" />
-
-          <label>Email</label>
-          <input class="input-field" type="text" name="email" id="from_mail" />
-
-          <label>Message</label>
-          <textarea class="input-field" name="message" id="message"></textarea>
-
-          <button
-            id="submit-btn"
-            onclick="sendMail()"
-            type="submit"
-            value="Send"
+          <span>
+            <a href="https://rajatmehra-blogs.netlify.app" target="_blank">
+              Find my blogs here</a
+            ></span
           >
-            Send Mail
-          </button>
-        </form>
+        </div>
       </div>
     </section>
 
