@@ -330,6 +330,11 @@ h6 {
   padding-bottom: 50px;
 }
 
+.f-left {
+  color: #2aca3e;
+  font-weight: 560;
+}
+
 .post {
   border: 1px solid var(--borderColor);
   -webkit-box-shadow: -2px 7px 21px -9px rgba(0, 0, 0, 0.75);
