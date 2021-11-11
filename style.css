@@ -1,5 +1,5 @@
 :root {
-  --mainColor: #eaeaea;
+  --mainColor: #ece3e3;
   --secondaryColor: #fff;
 
   --borderColor: #c1c1c1;
@@ -184,10 +184,11 @@ h6 {
 #profile_pic {
   display: block;
   margin: 0 auto;
-  height: 160px;
+  height: 200px;
   width: 200px;
   object-fit: cover;
   border: 2px solid var(--borderColor);
+  border-radius: 50%;
 }
 
 #theme-options-wrapper {
@@ -311,6 +312,7 @@ h6 {
   display: grid;
   align-content: center;
   text-align: center;
+  font-size: 1.2rem;
 }
 
 .social-links a:hover {
@@ -331,8 +333,12 @@ h6 {
 }
 
 .f-left {
-  color: #2aca3e;
+  color: var(--secondaryText);
   font-weight: 560;
+}
+
+.f-left-b {
+  font-size: 0.8rem;
 }
 
 .post {
@@ -412,7 +418,7 @@ h6 {
 }
 
 .footer span a {
-  color: grey;
+  color: var(--secondaryText);
   font-weight: 500;
   border-bottom: 1px solid purple;
 }
