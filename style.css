@@ -334,7 +334,8 @@ h6 {
 
 .f-left {
   color: var(--secondaryText);
-  font-weight: 560;
+  letter-spacing: 1px;
+  font-weight: 500;
 }
 
 .f-left-b {

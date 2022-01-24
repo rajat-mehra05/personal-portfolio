@@ -1,4 +1,5 @@
 /* console.log("Its working"); */
+document.getElementById("year").innerHTML = new Date().getFullYear();
 
 let theme = localStorage.getItem("theme");
 
